@@ -1,0 +1,71 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.movie-card {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 200px;
+  transition: transform 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h2 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+.movie-card p {
+  margin: 0 0 10px 0;
+}
+
+.filter,
+.add-movie-form {
+  margin-bottom: 20px;
+}
+
+.filter input,
+.add-movie-form input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.add-movie-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.movie-detail img {
+  max-width: 100%;
+  height: auto;
+}
+
+.movie-detail iframe {
+  margin-top: 20px;
+}
